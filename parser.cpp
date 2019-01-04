@@ -9,7 +9,7 @@ vector<string> initialPrompts = {"Add Transaction"};
 
 // prompts user for command when first starting the program
 void initialPrompt() {
-  cout << "What would you like to do?\n";
+  cout << "What would you like to do? Type the command number.\n";
   for (int i = 0; i < initialPrompts.size(); i++) {
     cout << i << ": " << initialPrompts[i] << endl;
   }
